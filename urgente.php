@@ -1,12 +1,12 @@
 <div align='center'>  
     <table border='1' cellpadding='0' cellspacing='0' width='600' bgcolor='#F6F6F6' bordercolor='#FFFFFF'> 
         <tr>
-            <td style='font-weight: bold'>FECHA DE ENTREGA</td>
-            <td style='font-weight: bold'>TAREA</td>
-            <td style='font-weight: bold'>DESCRIPCION</td>
-            <td style='font-weight: bold'>ASIGNATURA</td>
-            <td style='font-weight: bold'>PUNTUACION</td>
-            <td style='font-weight: bold'>EDITAR</td>
+            <th>FECHA DE ENTREGA</th>
+            <th>TAREA</th>
+            <th>DESCRIPCION</th>
+            <th>ASIGNATURA</th>
+            <th>PUNTUACION</th>
+            <th>EDITAR</th>
         </tr>
         <?php
             include('abreConexionBD.php');

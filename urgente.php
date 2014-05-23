@@ -23,8 +23,8 @@
                     echo "
                         <tr>
                         <td>" . $registro['Fecha_Fin'] . "</td>
-                        <td>" . $registro['Nombre'] . "</td>
-                        <td>" . $registro['Descripcion'] . "</td>
+                        <td class='larga'>" . $registro['Nombre'] . "</td>
+                        <td class='larga'>" . $registro['Descripcion'] . "</td>
                         <td>" . $registro['Asignatura'] . "</td>
                         <td>" . $registro['Puntuacion'] . "</td>
                         <td>

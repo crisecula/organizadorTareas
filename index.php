@@ -17,12 +17,7 @@
             <h2>Trabaja en estas tareas primero</h2>
             <?php include('urgente.php') ?>
         </section>
-        
-        <section class="content" id="tareas">
-            <h1>Ir el listado completo de tareas</h1>
-            <a href="tareas.php" id="tareasBoton" class="button">Tareas</a>
-        </section>
-        
+
         <section class="content" id="buscar">
             <h1>Buscar tareas por asignatura</h1>
             <form action="buscar.php" method="post">
